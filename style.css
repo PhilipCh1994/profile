@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,300&display=swap');
+
+body {
+  background-color: #c8deec;
+  font-family:Arial, Helvetica;
+  color: #181616;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,h2, h3, h4, h5, h6 {
+  color: #493675;
+  font-family: 'Roboto Serif', serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 900;
+}
+
+a {
+  color: #131514;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f321f6;
+  transition: .5s;
+  font-size: 150%;
+}
+
+div {
+  display: block;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card {
+  background-color: #F0F0F0;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px;
+  margin: 20px 0px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 5%);
+}
+
+img {
+  border-radius: 150%;
+}
+
+list {
+  font-size: 45px;
+  padding: 8px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+    height: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    height: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
